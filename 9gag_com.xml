@@ -1,0 +1,15 @@
+<?xml version="1.0" ?> 
+<SessionPattern>
+   <TemplateConfig>
+     <Name></Name>
+     <Description></Description>
+     <Timestamp>2016-02-09</Timestamp>
+     <Author>Simsang</Author>
+     <Reference>http://buglist.io/ </Reference>
+   </TemplateConfig>
+   
+   <SessionName>9Gag</SessionName> 
+   <Webpage>www.9gag.com</Webpage> 
+   <HTTPHost>9gag\.com</HTTPHost> 
+   <SessionPatternString>PHPSESSID=.+</SessionPatternString> 
+</SessionPattern>

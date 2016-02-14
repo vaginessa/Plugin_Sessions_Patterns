@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>Wordpress</SessionName> 
-   <Webpage>www.wordpress.com</Webpage> 
-   <HTTPHost>.*?\.wordpress\.com</HTTPHost> 
-   <SessionPatternString>wordpress_logged_in=.+?</SessionPatternString> 
+   <CompanyName>Wordpress</CompanyName> 
+   <CompanyWebpage>www.wordpress.com</CompanyWebpage> 
+   <HTTPHostRegex>.*?\.wordpress\.com</HTTPHostRegex> 
+   <SessionRegex>wordpress_logged_in=.+?</SessionRegex> 
 </SessionPattern>

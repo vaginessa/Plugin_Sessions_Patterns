@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>LinkedIn</SessionName> 
-   <Webpage>www.linkedin.com</Webpage> 
-   <HTTPHost>.*?\.linkedin\.com</HTTPHost> 
-   <SessionPatternString>JSESSIONID=.+</SessionPatternString> 
+   <CompanyName>LinkedIn</CompanyName> 
+   <CompanyWebpage>www.linkedin.com</CompanyWebpage> 
+   <HTTPHostRegex>.*?\.linkedin\.com</HTTPHostRegex> 
+   <SessionRegex>JSESSIONID=.+</SessionRegex> 
 </SessionPattern>

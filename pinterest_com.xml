@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>Pinterest</SessionName> 
-   <Webpage>www.pinterest.com</Webpage> 
-   <HTTPHost>.*?pinterest\.com</HTTPHost> 
-   <SessionPatternString>_pinterest_sess=.+</SessionPatternString> 
+   <CompanyName>Pinterest</CompanyName> 
+   <CompanyWebpage>www.pinterest.com</CompanyWebpage> 
+   <HTTPHostRegex>.*?pinterest\.com</HTTPHostRegex> 
+   <SessionRegex>_pinterest_sess=.+</SessionRegex> 
 </SessionPattern>

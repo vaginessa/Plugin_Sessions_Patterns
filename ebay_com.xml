@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>eBay</SessionName> 
-   <Webpage>www.ebay.com</Webpage> 
-   <HTTPHost>.*?\.ebay\.com</HTTPHost> 
-   <SessionPatternString>cid=[^;]+;</SessionPatternString> 
+   <CompanyName>eBay</CompanyName> 
+   <CompanyWebpage>www.ebay.com</CompanyWebpage> 
+   <HTTPHostRegex>.*?\.ebay\.com</HTTPHostRegex> 
+   <SessionRegex>cid=[^;]+;</SessionRegex> 
 </SessionPattern>

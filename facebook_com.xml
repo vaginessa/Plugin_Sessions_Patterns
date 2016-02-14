@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>Facebook</SessionName> 
-   <Webpage>www.facebook.com</Webpage> 
-   <HTTPHost>.*?\.facebook\.com</HTTPHost> 
-   <SessionPatternString>(c_user=[\d\w]+?)(\;|\s+|\.\.)</SessionPatternString> 
+   <CompanyName>Facebook</CompanyName> 
+   <CompanyWebpage>www.facebook.com</CompanyWebpage> 
+   <HTTPHostRegex>.*?\.facebook\.com</HTTPHostRegex> 
+   <SessionRegex>(c_user=[\d\w]+?)(\;|\s+|\.\.)</SessionRegex> 
 </SessionPattern>

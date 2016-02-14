@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>9Gag</SessionName> 
-   <Webpage>www.9gag.com</Webpage> 
-   <HTTPHost>9gag\.com</HTTPHost> 
-   <SessionPatternString>PHPSESSID=.+</SessionPatternString> 
+   <CompanyName>9Gag</CompanyName> 
+   <CompanyWebpage>www.9gag.com</CompanyWebpage> 
+   <HTTPHostRegex>9gag\.com</HTTPHostRegex> 
+   <SessionRegex>PHPSESSID=.+</SessionRegex> 
 </SessionPattern>

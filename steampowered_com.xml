@@ -8,8 +8,8 @@
      <Reference>http://buglist.io/ </Reference>
    </TemplateConfig>
    
-   <SessionName>Steam</SessionName> 
-   <Webpage>steampowered.com</Webpage> 
-   <HTTPHost>steampowered\.com</HTTPHost> 
-   <SessionPatternString>sessionid=.+?</SessionPatternString> 
+   <CompanyName>Steam</CompanyName> 
+   <CompanyWebpage>steampowered.com</CompanyWebpage> 
+   <HTTPHostRegex>steampowered\.com</HTTPHostRegex> 
+   <SessionRegex>sessionid=.+?</SessionRegex> 
 </SessionPattern>
